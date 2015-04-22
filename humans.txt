@@ -1,0 +1,19 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    Designer & Developer: Stuart Baker
+    Twitter: @stueth
+    From: Clearfield, UT, USA
+
+# THANKS
+
+    Initializr project
+    http://www.initializr.com/
+
+# TECHNOLOGY COLOPHON
+
+    HTML5, CSS3
+    jQuery, Modernizr
+    Bootstrap, Font Awesome
