@@ -1,0 +1,255 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   Theme colors: https://color.adobe.com/Honey-Pot-color-theme-1490158/edit/?copy=true
+   ========================================================================== */
+body {
+  font-family: "Istok Web", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+}
+h1,h2,h3,h4,h5,h6, .navbar {
+  font-family: "Montserrat", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+}
+h2 {
+  padding-left: 15px;
+}
+
+.navbar-brand {
+    padding: 0 15px;
+}
+
+.jumbotron {
+  background-image: url(../img/mountain.jpg);
+  background-repeat: no-repeat;
+  background-position: 25% 50%;
+  margin-bottom: 0;
+  padding: 15% 0;
+}
+
+.jumbotron h1 {
+  color: #fff;
+  text-shadow: 0px 0px 3px #000
+            , -1px -1px #000
+             , 1px 1px #000;
+}
+
+p.lead {
+  color: #fff;
+  margin-bottom: 0;
+}
+
+.subtitle-caption {
+  background: rgba(0,0,0,0.5);
+}
+
+.about-text {
+  padding-top: 1.0714285em;
+  padding-bottom: 1.0714285em;
+}
+
+.board-game {
+  width: 300px; /* 55.352%; 83.3333%; */
+  background-color: #105B63;
+  color: #FFFAD5;
+  font-size: 3.375em; /* 1.714285714285em;  24px */
+  padding: 50px 0;
+}
+
+.img-rounded, .img-circle {
+  margin: 0 auto; /* center images in containers*/
+}
+
+#projects {
+  background-color: #FFD34E;
+  padding: 1.0714285em 0;
+}
+
+.lft-logo {
+  padding: 1em 0;
+}
+
+.credentials {
+  background-color: #FFFAD5;
+  padding: 1.0714285em 0;
+}
+
+.hunt-logo {
+  width: 265px;
+  margin: 0 auto;
+}
+
+h2 > small {
+  color: #fff;
+}
+
+.skills {
+  background-color: #BD4932;
+  padding: 1.0714285em 0;
+}
+
+.progress-text {
+  padding-left: .5em;
+  color: #333;
+}
+
+.progress-bar {
+  font-size: 14px;
+  line-height: 1.6em;
+  text-align: left;
+}
+
+.progress-bar-warning {
+  background-color: #FFD34E;
+}
+
+footer {
+  background-color: #105b63; /* #1f1f1f; */
+  padding: 1.5em 0;
+}
+
+footer div.text-center {
+  margin: 0 0 0.714285em 0;
+}
+
+footer ul > li > a,
+footer div.text-center > a,
+footer p.text-center {
+  color: #fffad5; /* #fff; */
+}
+
+footer ul > li > a:hover,
+footer ul > li > a:focus,
+footer div.text-center > a:hover,
+footer div.text-center > a:focus {
+  color: #ffd34e;
+  text-decoration: none;
+}
+
+@media screen and (min-width: 992px) {
+
+  .lft-logo {
+    padding: 4em 0;
+  }
+
+}
+
+/* ========================================================================== 
+   Navbar colors from 
+   http://twitterbootstrap3navbars.w3masters.nl/?color=%23105b63&linkcolor=%23fffad5&activelinkcolor=%23bd4932&gradient=0&gradient=1&borders=0 
+   ========================================================================== */
+.navbar {
+  margin-bottom: 0;
+}
+
+.navbar-custom {
+  background-color: #105b63;
+  border-color: #0b4146;
+  background-image: -webkit-gradient(linear, left 0%, left 100%, from(#17838f), to(#105b63));
+  background-image: -webkit-linear-gradient(top, #17838f, 0%, #105b63, 100%);
+  background-image: -moz-linear-gradient(top, #17838f 0%, #105b63 100%);
+  background-image: linear-gradient(to bottom, #17838f 0%, #105b63 100%);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff17838f', endColorstr='#ff105b63', GradientType=0);
+}
+.navbar-custom .navbar-brand {
+  color: #fffad5;
+}
+.navbar-custom .navbar-brand:hover,
+.navbar-custom .navbar-brand:focus {
+  color: #fff4a2;
+  background-color: transparent;
+}
+.navbar-custom .navbar-text {
+  color: #fffad5;
+}
+.navbar-custom .navbar-nav > li > a {
+  color: #fffad5;
+}
+.navbar-custom .navbar-nav > li > a:hover,
+.navbar-custom .navbar-nav > li > a:focus {
+  color: #ffd34e;
+  background-color: transparent;
+}
+.navbar-custom .navbar-nav > .active > a,
+.navbar-custom .navbar-nav > .active > a:hover,
+.navbar-custom .navbar-nav > .active > a:focus {
+  color: #ffd34e;
+  background-color: #0b4146;
+  background-image: -webkit-gradient(linear, left 0%, left 100%, from(#0b4146), to(#126972));
+  background-image: -webkit-linear-gradient(top, #0b4146, 0%, #126972, 100%);
+  background-image: -moz-linear-gradient(top, #0b4146 0%, #126972 100%);
+  background-image: linear-gradient(to bottom, #0b4146 0%, #126972 100%);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff0b4146', endColorstr='#ff126972', GradientType=0);
+}
+.navbar-custom .navbar-nav > .disabled > a,
+.navbar-custom .navbar-nav > .disabled > a:hover,
+.navbar-custom .navbar-nav > .disabled > a:focus {
+  color: #cccccc;
+  background-color: transparent;
+}
+.navbar-custom .navbar-toggle {
+  border-color: #fffad5;
+}
+.navbar-custom .navbar-toggle:hover,
+.navbar-custom .navbar-toggle:focus {
+  background-color: #fffad5;
+}
+.navbar-custom .navbar-toggle .icon-bar {
+  background-color: #cccccc;
+}
+.navbar-custom .navbar-collapse,
+.navbar-custom .navbar-form {
+  border-color: #0b3f44;
+}
+.navbar-custom .navbar-nav > .dropdown > a:hover .caret,
+.navbar-custom .navbar-nav > .dropdown > a:focus .caret {
+  border-top-color: #ffd34e;
+  border-bottom-color: #ffd34e;
+}
+.navbar-custom .navbar-nav > .open > a,
+.navbar-custom .navbar-nav > .open > a:hover,
+.navbar-custom .navbar-nav > .open > a:focus {
+  background-color: #0b4146;
+  color: #ffd34e;
+}
+.navbar-custom .navbar-nav > .open > a .caret,
+.navbar-custom .navbar-nav > .open > a:hover .caret,
+.navbar-custom .navbar-nav > .open > a:focus .caret {
+  border-top-color: #ffd34e;
+  border-bottom-color: #ffd34e;
+}
+.navbar-custom .navbar-nav > .dropdown > a .caret {
+  border-top-color: #fffad5;
+  border-bottom-color: #fffad5;
+}
+@media (max-width: 767) {
+  .navbar-custom .navbar-nav .open .dropdown-menu > li > a {
+    color: #fffad5;
+  }
+  .navbar-custom .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-custom .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #ffd34e;
+    background-color: transparent;
+  }
+  .navbar-custom .navbar-nav .open .dropdown-menu > .active > a,
+  .navbar-custom .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .navbar-custom .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #ffd34e;
+    background-color: #0b4146;
+  }
+  .navbar-custom .navbar-nav .open .dropdown-menu > .disabled > a,
+  .navbar-custom .navbar-nav .open .dropdown-menu > .disabled > a:hover,
+  .navbar-custom .navbar-nav .open .dropdown-menu > .disabled > a:focus {
+    color: #cccccc;
+    background-color: transparent;
+  }
+}
+.navbar-custom .navbar-link {
+  color: #fffad5;
+}
+.navbar-custom .navbar-link:hover {
+  color: #ffd34e;
+}
