@@ -138,7 +138,7 @@ footer div.text-center > a:focus {
 @media screen and (min-width: 1550px) {
 
   .jumbotron {
-    background-position: 0% 0%;
+    background-position: 50% 0%;
     padding: 235px 0;
   }
 
